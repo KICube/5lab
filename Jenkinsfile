@@ -1,6 +1,6 @@
 pipeline {
     agent any
-	stages {
+    stages {
 		stage('Checkout and Run First Script') {
 			steps {
 				script {
@@ -31,5 +31,5 @@ pipeline {
 	            		}
 			}
 		}
-	}	
+	}
 }
